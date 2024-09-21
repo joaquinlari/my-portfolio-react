@@ -1,6 +1,11 @@
+import { Header } from "./components/Header"
+
 const App = () => {
   return (
-    <div>My Portfolio</div>
+    <>
+      <Header />
+      <div>My Portfolio</div>
+    </>
   )
 }
 
