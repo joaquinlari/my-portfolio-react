@@ -1,12 +1,15 @@
 .header {
+    background-color: aqua;
     display: flex;
 }
 
 .list-item {
+    background-color: red;
     display: flex
 }
 
 .item {
+    background-color: blue;
     list-style: none;
     text-decoration: none;
     color: black;
