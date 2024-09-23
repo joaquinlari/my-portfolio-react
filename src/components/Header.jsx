@@ -6,15 +6,15 @@ export const Header = () => {
       <h1 className="text-3xl">
         Header
       </h1>
-      <ul className="list-item">
-        <li className="item">
-          <a href="/">Home</a>
+      <ul>
+        <li className="list-item">
+          <a className="item" href="/">Home</a>
+        </li >
+        <li className="list-item">
+          <a className="item" href="/">Proyectos</a>
         </li>
-        <li className="item">
-          <a href="/">Proyectos</a>
-        </li>
-        <li className="item">
-          <a href="/">Contacto</a>
+        <li className="list-item">
+          <a className="item" href="/">Contacto</a>
         </li>
       </ul>
     </div>
