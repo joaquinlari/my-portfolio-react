@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+}
+
+.list {
+    display: flex
+}
+
+.item {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
